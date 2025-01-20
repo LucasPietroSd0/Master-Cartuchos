@@ -1,0 +1,130 @@
+*{margin: 0;
+padding: 0;
+}
+
+#titulo{
+color: rgb(255, 255, 255);
+width: 100%;
+
+}
+#divtitulo{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(32, 32, 170);
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+text-align: center;
+
+}
+hr{position: absolute;
+top:130px;
+width: 100%;
+color: black;
+}
+body{background-color: rgb(166, 168, 189);}
+
+nav{
+    
+    list-style: none;
+    position: absolute;
+display: block;
+display: inline;
+background-color: antiquewhite;
+padding: 9px;
+width: 100%;
+text-align: center;
+
+}
+h4{position: absolute;
+left: 7px;}
+
+.linha{position: absolute;
+    top:150px;
+    left: 5px;
+height: 350px;
+width: 240px;
+border-radius: 5px;
+border: 10px;
+color: black;
+background-color: rgb(255, 255, 255);}
+
+span{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+nav>ul>li{
+    display: block;
+    display: inline;
+    padding: 10px;
+   }
+
+nav>ul>li:hover{
+background-color: rgb(32, 32, 170);
+cursor: pointer;
+color: white;}
+nav:hover{color: white;}
+
+.divproduto{
+  width: 200px;
+  background-color: white;
+  position: absolute;
+  left: 20px;
+  border-radius: 5px;
+top: 150px;
+
+}
+
+img{
+    width: 200px;
+    object-fit: cover;
+  
+}
+#img1{object-fit: cover;}
+
+    .divproduto:hover{
+    cursor: pointer;
+box-shadow: yellow 10px;
+border-color:  rgb(32, 32, 170); ;
+box-shadow:  8px 2px 0 -3px rgb(73, 73, 167); 
+z-index: 20px;
+}
+.divproduto1:hover{
+    cursor: pointer;
+box-shadow: yellow 10px;
+border-color:  rgb(32, 32, 170); ;
+box-shadow:  8px 2px 0 -3px rgb(73, 73, 167); 
+z-index: 20px;
+}
+.linha2{position: absolute;
+    position: absolute;
+    top:150px;
+    left: 300px;
+height: 350px;
+width: 240px;
+border-radius: 5px;
+border: 10px;
+color: black;
+background-color: rgb(255, 255, 255);
+}
+
+.divproduto1{ width: 200px;
+    background-color: white;
+    position: absolute;
+    left: 325px;
+    border-radius: 5px;
+  top: 150px;}
+#divpai{border-color: black;
+height: 400px;
+width: 500px;
+position: absolute;
+top:200px;
+left: 3%;
+}
+a{text-decoration: none;
+color: black;}
+
+a:hover{color: white;}
+
+
+
+
