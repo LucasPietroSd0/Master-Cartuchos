@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problema na impressora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style> 
+    body{background-color:antiquewhite}
+    </style>
 </head>
 <body>
+
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Master Cartuchos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="impressora.html">Problema no cartuchos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cartucho.html">Problema no cartuchos</a>
+          </li>
+                <li class="nav-item">
+            <a class="nav-link " href="contatos.html">Contatos</a>
+          </li>
+        </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class=" .flex-row">
+    <button type="button" class="btn btn-dark" id="meuBotao">Impressora não reconhece o cartucho</button>
+    <button type="button" class="btn btn-dark" >Cartucho incopativel</button>
+    <button type="button" class="btn btn-dark">Falha na impressão</button>
+    <button type="button" class="btn btn-dark">Erro na impressora</button>
+    <button type="button" class="btn btn-dark">Warning</button>
+    <button type="button" class="btn btn-dark">Info</button>
+    <button type="button" class="btn btn-dark">Light</button>
+   </div>
+  <br><br>
     
+    <div class="jumbotron jumbotron-fluid" style="margin: 20px; background-color: antiquewhite;" id="minhaDiv">
+        <div class="container">
+       <div id="minhaDiv" style="background-color: red;">Conteúdo inicial da div</div>
+        </div>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      // Seleciona o botão e a div pelo ID
+      const botao = document.getElementById('meuBotao');
+      const div = document.getElementById('minhaDiv');
+  
+      // Adiciona um evento de clique ao botão
+      botao.addEventListener('click', () => {
+        // Altera o conteúdo da div
+        div.innerHTML = '<h1>Problema no cartucho</h1><br>Se a sua impressora não reconhece o cartucho, deve estar acontecendo uma falta de comunicação entre a impressora e o cartucho. retire o cartucho da maquina e com um pedaço de papel higienico passe nos contatos do cartucho, umas bolinhas douradas que tem atrás do cartucho passe suavemente de baixo pra cima cuidado para não arrancar o flat do cartucho pois se arrancar possivelmente irá parar de funcionar.</n> coloque de volta e veja se funcionou se caso não funcionar leve em um tecnico mais proximo pra ele fazer uma limpeza nesse cartucho e posteriormente fazer teste nesse cartucho pois pode estar cansado ou queimado. ';
+      });
+    </script>
 </body>
 </html>
