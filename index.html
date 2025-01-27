@@ -1,51 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mater Cartuchos</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="script.js">
-
+    <title>master</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="divtitulo">
-        <h1 id="titulo">Master Cartuchos</h1>
+
+
+<nav class="navbar fixed-top navbar-light bg-light"   >
+    <a class="navbar-brand" href="index.html">Master Cartuchos</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="impressora.html">Problema no cartuchos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cartucho.html">Problema no cartuchos</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link " href="contatos.html">Contatos</a>
+      </li>
+    </ul>
     </div>
-<br><br><br>
+</nav>
 
-    <nav >
-        <ul>
-<li><a href="impressora.html">Problema na impressora</a></li>
-<li><a href="cartucho.html">Problema nos cartuchos</a></li>
-<li><a href="index.html" >Comprar Cartuchos</a></li>
-<li><a href="contatos.html">Contatos</a></li>
-</ul>
-    </nav>
-<br><br><br> 
-<h4>Cartuchos Disponivel</h4>
+<br><br><br><br>
+<h6>Cartuchos Disponiveis</h6>
 <hr>
-<div class="linha"></div>
-<div class="divproduto"><br>
-<img src="https://img.kalunga.com.br/fotosdeprodutos/798476z.jpg?_gl=1*iosd4c*_gcl_aw*R0NMLjE3Mjg1ODMwODUuQ2p3S0NBanc5cDI0QmhCX0Vpd0E4SUQ1QnNvWUY1MXFxdEpaUjZPQ1NMSGZrSFdseWZfOU5ma3BvZHlWREZkNC1xTFVNV0ZWRWtqdm9Sb0NoNTBRQXZEX0J3RQ..*_gcl_au*MTc2MTM0MjY4MC4xNzI4NTgzMDc3" alt="Cartucho 664">
-<label for="">Cartucho 664- Preto<br>Quantidade de tinta 4,5</label><br>
-<span>R$35 Reais no pix</span>
-<button onclick="iniciarWhatsApp()">Conversar no WhatsApp</button>
-</div>
+<div id="divpai" >
+  <div class="card">
+    <img src="https://img.kalunga.com.br/fotosdeprodutos/798580d.jpg" alt="" srcset="" width="150px">
+   <span>Cartucho 662-Preto<br>remanufaturado</span><br>
+   <span class="preço">R$35,00</span><br><br>
+   <div ><button  onclick="iniciarWhatsApp()" class="btn">Comprar</button></div>
+   
+  </div>
+  <div class="card">
+    <img src="https://img.kalunga.com.br/fotosdeprodutos/798582d.jpg" alt="" srcset="" width="150px">
+   <span>Cartucho 662-Colorido<br>remanufaturado</span><br>
+   <span class="preço">R$45,00</span>
+    <button onclick="iniciarWhatsApp()" class="btn">Comprar</button>
+  </div>
+  <div class="card">
+    <img src="https://img.kalunga.com.br/fotosdeprodutos/798476d.jpg" alt="" srcset="" width="150px">
+   <span>Cartucho 664-Preto<br>remanufaturado</span><br>
+   <span class="preço">R$35,00</span>
+   <br><br>
+    <button onclick="iniciarWhatsApp()" class="btn">Comprar</button>
+  </div>
+  <div class="card">
+    <img src="https://img.kalunga.com.br/fotosdeprodutos/798475d.jpg" alt="" srcset="" width="150px">
+   <span>Cartucho 664 Colorido<br>remanufaturado</span>
+   <span  class="preço">R$45,00</span>
+   
+    <button onclick="iniciarWhatsApp()" class="btn">Comprar</button>
+  </div>
+  <div class="card">
+    <img src="https://img.kalunga.com.br/fotosdeprodutos/998530d.jpg" alt="" srcset="" width="150px">
+   <span>Cartucho 664 Colorido<br>remanufaturado</span>
+   <span class="preço">R$45,00</span>
+   
+    <button onclick="iniciarWhatsApp()" class="btn">Comprar</button>
+  </div><div class="card">
+    <img src="https://img.kalunga.com.br/fotosdeprodutos/998531.webp" alt="" srcset="" width="150px">
+   <span>Cartucho-662 Cor e preto remanufaturado</span>
+   <span class="preço">R$45,00</span>
+   
+    <button onclick="iniciarWhatsApp()" class="btn">Comprar</button>
+  </div>
+    </div>
+
+
+
+<div class="jumbotron jumbotron-fluid ">
+  <div class="container">
+    <h1 class="display-4">Recarga e venda de cartuchos</h1>
+    <p class="lead">contatos : <br>
+      Telefone/WhatsApp |  81 982840782<br>
+      Site feito por Master Cartuchos.
+    </p>
+  </div>
 </div>
 
-<div class="linha2"></div>
-<div class="divproduto1"><br>
-<img id="img2" src="https://img.kalunga.com.br/fotosdeprodutos/798478z.jpg?_gl=1*1s8jyl4*_gcl_aw*R0NMLjE3Mjg1ODc2NzcuQ2p3S0NBanc5cDI0QmhCX0Vpd0E4SUQ1QmdIYnJodVlrMFdmb0FPZVh6R19MMHBXT1duZGJYaktGdzhoNUJ2TUNWTkdXTkJrX2wxdGZSb0NEX1FRQXZEX0J3RQ..*_gcl_au*MTc2MTM0MjY4MC4xNzI4NTgzMDc3" alt="Cartucho 664XL">
-<label for="">Cartucho 664 XL- Preto<br>Quantidade de tinta 8ml-12ml</label><br>
-<span>R$50 Reais no pix</span>
-<button onclick="iniciarWhatsApp()">Conversar no WhatsApp</button>
-</div>
-</div>
 
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="script.js"></script>
-
-
+<br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br>
 </body>
 </html>
