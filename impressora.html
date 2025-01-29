@@ -18,13 +18,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto"> <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="impressora.html">Problema no cartuchos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cartucho.html">Problema no cartuchos</a>
-          </li>
+         
                 <li class="nav-item">
             <a class="nav-link " href="contatos.html">Contatos</a>
           </li>
@@ -34,18 +34,31 @@
     <br><br><br>
     <div class=" .flex-row">
     <button type="button" class="btn btn-dark" id="meuBotao">Impressora não reconhece o cartucho</button>
-    <button type="button" class="btn btn-dark" >Cartucho incopativel</button>
-    <button type="button" class="btn btn-dark">Falha na impressão</button>
-    <button type="button" class="btn btn-dark">Erro na impressora</button>
-    <button type="button" class="btn btn-dark">Warning</button>
-    <button type="button" class="btn btn-dark">Info</button>
-    <button type="button" class="btn btn-dark">Light</button>
+    <button type="button" class="btn btn-dark" id="incopativel" >Cartucho incopativel</button>
+    <button type="button" class="btn btn-dark" id="dicas">Dicas de uso</button>
+    <button type="button" class="btn btn-dark" id="tinta">Nivel da tinta</button>
+    <button type="button" class="btn btn-dark" id="protegido">Cartucho protegido</button>
+    
    </div>
   <br><br>
     
     <div class="jumbotron jumbotron-fluid" style="margin: 20px; background-color: antiquewhite;" id="minhaDiv">
         <div class="container">
-       <div id="minhaDiv" style="background-color: red;">Conteúdo inicial da div</div>
+       <div id="minhaDiv" style="background-color:antiquewhite"> <h2>Como os cartuchos Funcionam</h2>
+        <p>  Os castuchos são semelhantes ao chuveiro eletrico. Precisamos dobrar a atenção para não deixa-los secar 100%. </p><h6>Entenda</h6>
+        <p> Seus condutores aquecem e resfriam simultaneamente pela própria tinta. E, não havendo mais tinta, queimará os resistores. Portanto, assim que apresentar falhas na impressão pare imediatamente,não insista!</p>
+        
+        <p>Os chineses são muito inferiores aos concorrentes, por que são fabricados com materiais de baixa qualidade. Por isso, devemos evitar o "SUPERAQUECIMENTO" porque ele provoca alterações nos valores dos resistores elétricos. Este é o motivo das impressoras recusarem os cartuchos que estão abaixo do "PADRÃO ÔHMICO"</p>
+      
+        <h2>Sugestões para um bom desempenho</h2>
+        1- Não imprima no modo rascunho rápido (econômico).<br>
+        2- Aa cada 5 impressões faça uma pequena pausa.<br>
+        3- As oscilações da energia elétrica prejudicam os circuitos dos cartuchos.Por isso, só ligue a impressora no estabiliczador nunca diretamente na rede.
+        4- Vários clientes perderam o cartucho por ter caido no chão no chão, visto que, "ESTAVAM SEM O CLIP DE PROTEÇÃO". Portanto, é imprescindivel colocá-lo a fim de evitar danos ao mesmo.<br>
+        5- Cartuchos entopem por falta de uso. Faça uma almofadinha de papel higiênico e emudeça com água mineral por 30 minutos. Repita a operação anterior. Se a tinta não chegar traga para ser colocado na ultrasson.<br>
+        6- Se a impressora não reconhece os cartuchos. Passe um papel macio (LIMPO) nos contatos elétricos - qualquer tipo de gordura isola a comunicação da impressora com os cartuchos. Portanto, não toque nos circuito elétrico dos cartuchos.<br>
+        Todas essas recomendações são muito importantes para vida útil dos cartuchos e se obter impressão de boa qualidade.<br>
+        <h6>Boa sorte - Master Cartuchos</h6></div>
         </div>
       </div>
 
@@ -53,16 +66,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script>
-      // Seleciona o botão e a div pelo ID
-      const botao = document.getElementById('meuBotao');
-      const div = document.getElementById('minhaDiv');
-  
-      // Adiciona um evento de clique ao botão
-      botao.addEventListener('click', () => {
-        // Altera o conteúdo da div
-        div.innerHTML = '<h1>Problema no cartucho</h1><br>Se a sua impressora não reconhece o cartucho, deve estar acontecendo uma falta de comunicação entre a impressora e o cartucho. retire o cartucho da maquina e com um pedaço de papel higienico passe nos contatos do cartucho, umas bolinhas douradas que tem atrás do cartucho passe suavemente de baixo pra cima cuidado para não arrancar o flat do cartucho pois se arrancar possivelmente irá parar de funcionar.</n> coloque de volta e veja se funcionou se caso não funcionar leve em um tecnico mais proximo pra ele fazer uma limpeza nesse cartucho e posteriormente fazer teste nesse cartucho pois pode estar cansado ou queimado. ';
-      });
-    </script>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
