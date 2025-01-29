@@ -186,7 +186,7 @@ img{width: 200px;}
   #divpai{
       display: flex;
     flex-direction: column;
-    padding-top: 125%;
+    padding-top: 1000%;
     align-items: center;
     border-style: solid;
     background-color: antiquewhite;
@@ -195,7 +195,7 @@ img{width: 200px;}
  
 
 }
-@media (min-width:414px){
+@media (min-width:414px)and (max-width:500px){
   .card{
     margin: 10px;
     width: 380px;
@@ -205,7 +205,7 @@ img{width: 200px;}
   #divpai{
       display: flex;
     flex-direction: column;
-    padding-top: 250%;
+    padding-top: 255%;
     align-items: center;
     border-style: solid;
     background-color: antiquewhite;
